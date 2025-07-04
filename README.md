@@ -1,10 +1,12 @@
-# option-greeks-var-pnl
+# Mini Project – Option Greeks & VaR
 
-Mini-project (educational) that:
+This repository contains a small self-contained project that:
 
 1. Prices European options with Black–Scholes.
 2. Computes Greeks (Δ Γ Θ Vega).
-3. Builds a toy equity-option portfolio and attributes daily P&L via delta.
-4. Estimates 1-day 99 % historical Value-at-Risk.
+3. Builds a toy option portfolio and explains daily P&L via Greeks.
+4. Estimates 1-day 99% historical VaR.
 
-> Stack: Python, NumPy, pandas, SciPy, yfinance, matplotlib
+## Quick start
+pip install -r requirements.txt
+jupyter lab notebooks/PnL_explain.ipynb
